@@ -1,0 +1,19 @@
+{
+  "name": "gym_service",
+  "version": "1.0.0",
+  "description": "A Micro Service for PkmnGo Gym Information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smacabra/gym_service.git"
+  },
+  "author": "Eric Akira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smacabra/gym_service/issues"
+  },
+  "homepage": "https://github.com/smacabra/gym_service#readme"
+}
