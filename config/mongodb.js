@@ -22,3 +22,5 @@ function disconnect() {
 	connection = null;
 	return true;
 }
+
+module.exports = {connect, disconnect};
