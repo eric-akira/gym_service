@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/smacabra/gym_service/issues"
   },
-  "homepage": "https://github.com/smacabra/gym_service#readme"
+  "homepage": "https://github.com/smacabra/gym_service#readme",
+  "dependencies": {
+    "dotenv-safe": "^6.1.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "mongodb": "^3.1.9",
+    "morgan": "^1.9.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
 }
