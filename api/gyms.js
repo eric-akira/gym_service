@@ -4,6 +4,7 @@ module.exports = (app, repository) => {
 			if(err) return next(err);
 			res.json(gyms);
 		});
+		repository.disconnect();
 	});
 
 	app.get('/gyms/:id', (req, res, next) => {
@@ -11,5 +12,6 @@ module.exports = (app, repository) => {
 			if(err) return next(err);
 			res.json(gym);
 		});
+		repository.disconnect();
 	});
 }

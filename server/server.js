@@ -18,7 +18,6 @@ function start(api, repository, callback) {
 }
 
 function stop() {
-	//console.log(server);
 	if(server) server.close();
 	return true;
 }
